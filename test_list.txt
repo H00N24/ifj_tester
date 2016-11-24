@@ -1,0 +1,13 @@
+#
+# Zoznam testov, ktoré sa majú vykonať
+# Prázdne riadky a riadky začínajúce '#' budú ignorované
+# Pred nový test je ideálne pridať jeho krátky popis ako komentár
+# Formát súboru je :
+# [NAME]\t[FILES_NAME]\t[RETURN_CODE]
+#     *[NAME]        -> Meno testu
+#     *[FILES_NAME]  -> Základ názvov súborov (ak sa moje súbory volajú
+#                                              test1.code a tes1.out, 
+#                                              FILES_NAME je test1)
+#     *[RETURN_CODE] -> Návratová hodnota programu
+
+Testovac	test1	2
