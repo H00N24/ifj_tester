@@ -57,7 +57,7 @@ for test in test_list:
     val_save = log_path + ".valgrind"
 
     with open(in_path) as input_file:
-        input_data = input_file.read()
+        input_data = bytes(input_file.read(), "UTF-8")
 
     real_rc = int(test[2])
     real_out = ""
@@ -77,7 +77,7 @@ for test in test_list:
 
     valgrind = "valgrind --tool=memcheck --leak-check=full " + cmd
     process = Popen(valgrind.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE)
-    out, err = process.communicate(timeout = 15)
+    out, err = process.communicate(input = input_data, timeout = 15)
     proc_val = ''
     for line in err.decode('utf-8').split('\n'):
         if line.startswith('=='):
