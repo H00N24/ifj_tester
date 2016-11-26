@@ -6,7 +6,7 @@ Copyright (C) 2016 SsYoloSwag41 Inc.
 autor: xkurak00
 '''
 
-import os,sys,re
+import os,sys,re, inspect
 from subprocess import Popen, PIPE, run
 
 print('---IFJ test script---\n')
