@@ -13,23 +13,25 @@ if len(sys.argv) != 2:
     print("ERROR: 2 arguments expected", file = sys.stderr)
     sys.exit(0)
 
+my_dir = os.path.abspath('.') + '/'
+test_dir = my_dir + 'test/'
+log_dir  = my_dir + 'logs/'
+signals_path = my_dir + '.signals'
+testl_path = my_dir + 'test_list.txt'
+
 signals = {}
-with open(".signals") as input_file:
+with open(signals_path) as input_file:
     for line in input_file:
         tmp = line[:-1].split('\t')
         tmp[1] = - int(tmp[1])
         signals[tmp[1]] = tmp[0] + ": " + tmp[2]
 
 test_list = []
-with open("test_list.txt") as input_file:
+with open(testl_path) as input_file:
     for line in input_file:
         if line.startswith('#') or line == '\n':
             continue
         test_list.append(line[:-1].split('\t'))
-
-test_dir = os.path.abspath('./test/') + '/'
-log_dir  = os.path.abspath('./logs/') + '/'
-test_files = os.listdir(test_dir)
 
 if os.path.exists(sys.argv[1]) and os.path.isfile(sys.argv[1]):
     bin_path = os.path.abspath(sys.argv[1])
