@@ -76,7 +76,7 @@ Vytvorím pre neho súbory test1.code.
 test1.code:
 ``` java
 /*
-* Uplne jenoduchý testovací program
+* Môj testovací program
 * autor: ja
 */
 class Main
@@ -100,7 +100,7 @@ A dostanem výstup:
 ```
 ---IFJ test script---
 
-Test: "Lexikalny test 1"
+Test: "Môj test"
   Return code: True
     Your return code: 1
     Real return code: 1
