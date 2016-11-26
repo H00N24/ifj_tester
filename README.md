@@ -81,8 +81,13 @@ test1.code:
 */
 class Main
 {
-	static String ahoj = "pete
+	static String ahoj;
+	
+	static void run()
+	{
+		ahoj =  = "pete
 ";
+	}
 }
 ```
 kedže nepoužijem ani stdin ani stdout vytvorím prázdne súbory test1.in a test1.out.
