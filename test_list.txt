@@ -20,5 +20,5 @@ Lexikalny test 3	lex_test/lex_test_3	1
 Lexikalny test 4	lex_test/lex_test_4	1
 Lexikalny test 5	lex_test/lex_test_5	1
 
-# Long string test
-Long string	long_string	0
+# String testy
+Long string test	string_test/long_string	0
