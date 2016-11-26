@@ -110,5 +110,6 @@ for test in test_list:
         print('  Test FAILED\n')
         score["fail"] += 1
 
-
 print("DONE, ok:", score["ok"], "failed:", score["fail"] )
+if score["fail"]:
+    sys.exit(1)
