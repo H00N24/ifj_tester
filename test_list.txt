@@ -28,4 +28,3 @@ String test 2	string_test/string_test_2	0
 String test 3	string_test/string_test_3	0
 String test 4	string_test/string_test_4	0
 String test 5	string_test/string_test_5	0
-#String test 6	string_test/string_test_6	0
