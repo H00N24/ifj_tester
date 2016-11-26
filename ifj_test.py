@@ -2,6 +2,8 @@
 
 '''
 Testovaci skript na projekt z IFJ
+Copyright (C) 2016 SsYoloSwag41 Inc.
+autor: xkurak00
 '''
 
 import os,sys,re
@@ -13,7 +15,8 @@ if len(sys.argv) != 2:
     print("ERROR: 2 arguments expected", file = sys.stderr)
     sys.exit(0)
 
-my_dir = os.path.abspath('.') + '/'
+filename = inspect.getframeinfo(inspect.currentframe()).filename
+my_dir = os.path.dirname(os.path.abspath(filename)) + '/'
 test_dir = my_dir + 'test/'
 log_dir  = my_dir + 'logs/'
 signals_path = my_dir + '.signals'
