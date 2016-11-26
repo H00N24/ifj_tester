@@ -6,9 +6,19 @@
 # [NAME]\t[FILES_NAME]\t[RETURN_CODE]
 #     *[NAME]        -> Meno testu
 #     *[FILE_NAME]  -> Základ názvov súborov (ak sa moje súbory volajú
-#                                              test1.code a tes1.out, 
+#                                              test1.code a tes1.out,
 #                                              FILES_NAME je test1)
 #     *[RETURN_CODE] -> Návratová hodnota programu
 
+
+# Testy na testovanie chyby 1: chyba v programu v rámci lexikální
+#                              analýzy (chybná struktura aktuálního lexému).)
 # NAME	FILE_NAME	RETURN_CODE
-Testovac	test1	2
+Lexikalny test 1	lex_test/lex_test_1	1
+Lexikalny test 2	lex_test/lex_test_2	1
+Lexikalny test 3	lex_test/lex_test_3	1
+Lexikalny test 4	lex_test/lex_test_4	1
+Lexikalny test 5	lex_test/lex_test_5	1
+
+# Long string test
+Long string	long_string	0

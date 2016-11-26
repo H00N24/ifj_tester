@@ -5,7 +5,7 @@ Testovaci skript na projekt z IFJ
 '''
 
 import os,sys,re
-from subprocess import Popen, PIPE
+from subprocess import Popen, PIPE, run
 
 print('---IFJ test script---\n')
 
@@ -54,6 +54,9 @@ for test in test_list:
     out_save = log_path + ".stdout"
     val_save = log_path + ".valgrind"
 
+    with open(in_path) as input_file:
+        input_data = input_file.read()
+
     real_rc = int(test[2])
     real_out = ""
     try:
@@ -62,9 +65,9 @@ for test in test_list:
     except:
         pass
     #cmd += "valgrind --tool=memcheck --leak-check=full "
-    cmd = " ".join([bin_path, code_path, "<", in_path])
+    cmd = bin_path + " " + code_path
     process = Popen(cmd.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE)
-    out, err = process.communicate()
+    out, err = process.communicate(input = input_data, timeout = 15)
 
     proc_out = out.decode('utf-8')
     proc_err = err.decode('utf-8')
@@ -72,7 +75,7 @@ for test in test_list:
 
     valgrind = "valgrind --tool=memcheck --leak-check=full " + cmd
     process = Popen(valgrind.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE)
-    out, err = process.communicate()
+    out, err = process.communicate(timeout = 15)
     proc_val = ''
     for line in err.decode('utf-8').split('\n'):
         if line.startswith('=='):
