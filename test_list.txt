@@ -1,18 +1,18 @@
 #
-# Zoznam testov, ktoré sa majú vykonať
-# Prázdne riadky a riadky začínajúce '#' budú ignorované
-# Pred nový test je ideálne pridať jeho krátky popis ako komentár
-# Formát súboru je :
+# Zoznam testov, ktore sa maju vykonat
+# Prazdne riadky a riadky zacinajuce '#' budu ignorovane
+# Pred novy test je idealne pridat jeho kratky popis ako komentar
+# Format suboru je :
 # [NAME]\t[FILES_NAME]\t[RETURN_CODE]
 #     *[NAME]        -> Meno testu
-#     *[FILE_NAME]  -> Základ názvov súborov (ak sa moje súbory volajú
+#     *[FILE_NAME]  -> Zaklad nazvov suborov (ak sa moje subory volaju
 #                                              test1.code a tes1.out,
 #                                              FILES_NAME je test1)
-#     *[RETURN_CODE] -> Návratová hodnota programu
+#     *[RETURN_CODE] -> Navratova hodnota programu
 
 
-# Testy na testovanie chyby 1: chyba v programu v rámci lexikální
-#                              analýzy (chybná struktura aktuálního lexému).)
+# Testy na testovanie chyby 1: chyba v programu v ramci lexikalni
+#                              analyzy (chybna struktura aktualniho lexemu).)
 # NAME	FILE_NAME	RETURN_CODE
 Lexikalny test 1	lex_test/lex_test_1	1
 Lexikalny test 2	lex_test/lex_test_2	1

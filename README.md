@@ -2,28 +2,30 @@
 
 ## Úvod
 
-Základnou myšliekov tohto repozitára je vytvoriť čo najvačšiu databázu testov (automatický tester je iba bonus),
+Základnou myšliekou tohto repozitára je vytvoriť čo najvačšiu databázu testov (automatický tester je iba bonus),
 preto poprosím všetkých, ktorí si ho stiahnu aby pridali aspoň jeden test a tým pomohli s jeho rozšírením. 
 
 
 
 Repozitár obsahuje:
- - ifj_test.py -> testovací skript 
+ - ifj_test.py   -> testovací skript 
  - test_list.txt -> zoznam testov
- - .gitignore -> vzor pre súbory ktoré sa nemajú pridávať
- - .signals -> pomocný súbor, zoznam signálov
- - README.md -> readme pre github
+ - .gitignore    -> vzor pre súbory ktoré sa nemajú pridávať
+ - .signals      -> pomocný súbor, zoznam signálov
+ - README.md     -> readme pre github
 
 ## Súbory
 
 ### ifj_test.py
-Na odtestovanie je porovnávaný návratový kód programu a stdout.
+Na otestovanie je porovnávaný návratový kód programu a stdout.
 
 Prebieha i kontrola pomocov valgrindu (valgrind --tool=memcheck --leak-check=full). Ukončenie signálom je tak isto zaznamenané a vypíše sa ako samostatný riadok.
 
 Spúšťanie skriptu:
 ```
 ./ifj_test.py [BIN_PATH]
+
+# [BIN_PATH] cesta k vašemu binárnemu súboru k projektu IFJ
 ```
 Príklad výstupu:
 ```
