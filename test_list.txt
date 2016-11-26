@@ -5,9 +5,10 @@
 # Formát súboru je :
 # [NAME]\t[FILES_NAME]\t[RETURN_CODE]
 #     *[NAME]        -> Meno testu
-#     *[FILES_NAME]  -> Základ názvov súborov (ak sa moje súbory volajú
+#     *[FILE_NAME]  -> Základ názvov súborov (ak sa moje súbory volajú
 #                                              test1.code a tes1.out, 
 #                                              FILES_NAME je test1)
 #     *[RETURN_CODE] -> Návratová hodnota programu
 
+# NAME	FILE_NAME	RETURN_CODE
 Testovac	test1	2

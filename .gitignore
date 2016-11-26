@@ -1,2 +1,3 @@
 *.stdout
 *.stderr
+*.valgrind

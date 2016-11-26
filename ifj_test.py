@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
-Testovaci skript pre ifj projekt
+Testovaci skript na projekt z IFJ
 '''
 
 import os,sys,re
@@ -42,15 +42,17 @@ score["ok"] = 0
 score["fail"] = 0
 
 for test in test_list:
-    print("Test: \"" + test[0] + "\"")
+    print("Test: \"" + test[0] + "\"", flush = True)
 
     test_path = test_dir + test[1]
     code_path = test_path + ".code"
-    out_path = test_path +  ".out"
+    out_path  = test_path + ".out"
+    in_path   = test_path + ".in"
 
     log_path = log_dir + test[1]
     err_save = log_path + ".stderr"
     out_save = log_path + ".stdout"
+    val_save = log_path + ".valgrind"
 
     real_rc = int(test[2])
     real_out = ""
@@ -59,18 +61,30 @@ for test in test_list:
             real_out = input_file.read()
     except:
         pass
-
-    cmd = bin_path + " " + code_path
-    process = Popen(cmd.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE,)
+    #cmd += "valgrind --tool=memcheck --leak-check=full "
+    cmd = " ".join([bin_path, code_path, "<", in_path])
+    process = Popen(cmd.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE)
     out, err = process.communicate()
 
     proc_out = out.decode('utf-8')
     proc_err = err.decode('utf-8')
     proc_rc  = int(process.returncode)
 
-    with open(err_save, 'w') as err_file, open(out_save,'w') as out_file:
+    valgrind = "valgrind --tool=memcheck --leak-check=full " + cmd
+    process = Popen(valgrind.split(' '), stdout = PIPE, stderr = PIPE, stdin  = PIPE)
+    out, err = process.communicate()
+    proc_val = ''
+    for line in err.decode('utf-8').split('\n'):
+        if line.startswith('=='):
+            proc_val += line + '\n'
+    proc_val = proc_val[:-1]
+
+    with open(err_save, 'w') as err_file,\
+         open(out_save, 'w') as out_file,\
+         open(val_save, 'w') as val_file:
         err_file.write(proc_err)
         out_file.write(proc_out)
+        val_file.write(proc_val)
 
     result = real_rc == proc_rc and real_out == proc_out
 
@@ -80,6 +94,8 @@ for test in test_list:
     print('  Stdout:', real_out == proc_out )
     print('    stdout saved: ./logs/' +  test[1] + ".stdout")
     print('    stderr saved: ./logs/' +  test[1] + ".stderr")
+    print('  Valgrind:', proc_val.split('\n')[-1] )
+    print('    valgrind saved: ./logs/' +  test[1] + ".valgrind")
     if proc_rc in signals:
         print('  Signal:',signals[proc_rc])
     if result:
