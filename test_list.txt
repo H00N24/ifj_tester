@@ -52,9 +52,7 @@ Sematicky test 14	sema_test/sema_test_14	0
 Executor test 1	executor_test/exec_test_1	8
 Executor test 2	executor_test/exec_test_2	8
 Executor test 3	executor_test/exec_test_3	10
-Executor test 4	executor_test/exec_test_4	10
 Executor test 5	executor_test/exec_test_5	10
-Executor test 6	executor_test/exec_test_6	10
 Executor test 7	executor_test/exec_test_7	7
 
 # Testy zo zadanie
@@ -84,8 +82,14 @@ Arithmetic test 5	arithmetic_test/arithmetic_test_5	9
 Arithmetic test 6	arithmetic_test/arithmetic_test_6	8
 Arithmetic test 7	arithmetic_test/arithmetic_test_7	0
 Arithmetic test 8	arithmetic_test/arithmetic_test_8	8
-Arithmetic test 9	arithmetic_test/arithmetic_test_9	0
 
 # Complexne testy
 #
 IFJ master test	complex_test/zlaty_bludistak	0
+
+# Praca so zapornymi cislami (UNARI - rozsirenie zadatania)
+# Kto chce si to odkomentujte
+#
+#Arithmetic test 9	arithmetic_test/arithmetic_test_9	0
+#Executor test 4	executor_test/exec_test_4	10
+#Executor test 6	executor_test/exec_test_6	10
