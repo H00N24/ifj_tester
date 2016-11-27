@@ -1,3 +1,5 @@
+// Boolean v podmienke
+
 class Main
 {
     static void run()

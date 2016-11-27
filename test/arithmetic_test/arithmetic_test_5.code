@@ -1,3 +1,5 @@
+// Chyba delenie nulou
+
 class Main
 {
 	static void run()

@@ -1,3 +1,5 @@
+// Praca s nedefinovanou premennou
+
 class Main
 {
     static int test(int a)

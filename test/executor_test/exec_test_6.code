@@ -1,4 +1,5 @@
-// Testovanie ifj16 funkcie
+// Testovanie ifj16 funkcie substr
+
 class Main
 {
     static void run()

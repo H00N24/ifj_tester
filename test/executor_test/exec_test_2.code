@@ -1,3 +1,5 @@
+// Chyba executora void funkcia vracia hodnotu
+
 class Main
 {
     static void run()

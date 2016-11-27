@@ -1,10 +1,12 @@
+// Zly pocet argumentov pri volani funkcie
+
 class Main
 {
     static void run()
     {
          String abc = "abc";
          double d = 42.158;
-         calculate(a,b);
+         calculate(abc, d);
     }
 
     static void calculate(int a)

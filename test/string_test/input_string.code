@@ -1,3 +1,5 @@
+// Nacitanie stringom pomocou ifj16 funkcie
+
 class Main
 {
 	static String a;

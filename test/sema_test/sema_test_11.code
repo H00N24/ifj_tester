@@ -1,3 +1,5 @@
+// Definovanie ifj16 triedy
+
 class Main
 {
     static void run()

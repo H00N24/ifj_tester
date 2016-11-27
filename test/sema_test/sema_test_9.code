@@ -1,3 +1,6 @@
+// Volanie funkcie s argumentom so
+// zlym datovym typom
+
 class Main
 {
     static void run()

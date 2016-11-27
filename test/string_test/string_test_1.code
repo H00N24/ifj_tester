@@ -1,3 +1,5 @@
+// Test ifj16 funkcii
+
 class Main
 {
 	static void run()

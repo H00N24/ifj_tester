@@ -1,3 +1,5 @@
+// Praca s neinicializovana premennou
+
 class Main
 {
 	static void run()

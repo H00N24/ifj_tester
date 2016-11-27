@@ -1,3 +1,6 @@
+// Podobny test s pracou so stringami
+// ako v zadani projektu
+
 class Main
 {
 	static void run()

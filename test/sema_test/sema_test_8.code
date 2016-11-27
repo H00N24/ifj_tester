@@ -1,3 +1,5 @@
+// Zly datovy typ pri volani funkcie
+
 class Main
 {
     static void run()

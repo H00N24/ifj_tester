@@ -1,3 +1,5 @@
+// Definovanie premennej a funkcie s rovnakym menom
+
 class Main
 {
     static void run()

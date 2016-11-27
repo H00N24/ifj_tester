@@ -34,6 +34,7 @@ Sematicky test 8	sema_test/sema_test_8	4
 Sematicky test 9	sema_test/sema_test_9	4
 Sematicky test 10	sema_test/sema_test_10	4
 Sematicky test 11	sema_test/sema_test_11	3
+Sematicky test 12	sema_test/sema_test_12	0
 
 # Exekutor testy
 #
@@ -43,6 +44,9 @@ Executor test 2	executor_test/exec_test_2	10
 Executor test 3	executor_test/exec_test_3	10
 Executor test 4	executor_test/exec_test_4	10
 Executor test 5	executor_test/exec_test_5	10
+Executor test 6	executor_test/exec_test_6	10
+Executor test 7	executor_test/exec_test_7	10
+
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
 Zadanie test 2	executor_test/exec_zadanie_2	0

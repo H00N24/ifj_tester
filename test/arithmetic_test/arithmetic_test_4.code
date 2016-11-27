@@ -1,3 +1,5 @@
+// Spaja stringov
+
 class Main
 {
 	static void run()

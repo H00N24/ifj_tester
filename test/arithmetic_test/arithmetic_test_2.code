@@ -1,3 +1,5 @@
+// Spravne vypisovanie double hodnoty
+
 class Main
 {
 	static void run()

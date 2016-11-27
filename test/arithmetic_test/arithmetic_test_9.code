@@ -1,3 +1,5 @@
+// Priradenie zapornych cisel
+
 class Main
 {
     static void run()
