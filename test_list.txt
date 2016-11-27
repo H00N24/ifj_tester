@@ -21,6 +21,33 @@ Lexikalny test 3	lex_test/lex_test_3	1
 Lexikalny test 4	lex_test/lex_test_4	1
 Lexikalny test 5	lex_test/lex_test_5	1
 
+# Sematicke testy
+#
+Sematicky test 1	sema_test/sema_test_1	3
+Sematicky test 2	sema_test/sema_test_2	3
+Sematicky test 3	sema_test/sema_test_3	3
+Sematicky test 4	sema_test/sema_test_4	3
+Sematicky test 5	sema_test/sema_test_5	4
+Sematicky test 6	sema_test/sema_test_6	4
+Sematicky test 7	sema_test/sema_test_7	4
+Sematicky test 8	sema_test/sema_test_8	4
+Sematicky test 9	sema_test/sema_test_9	4
+Sematicky test 10	sema_test/sema_test_10	4
+Sematicky test 11	sema_test/sema_test_11	3
+
+# Exekutor testy
+#
+Executor test 1	executor_test/exec_test_1	8
+Executor test 2	executor_test/exec_test_2	8
+Executor test 2	executor_test/exec_test_2	10
+Executor test 3	executor_test/exec_test_3	10
+Executor test 4	executor_test/exec_test_4	10
+Executor test 5	executor_test/exec_test_5	10
+# Testy zo zadanie
+Zadanie test 1	executor_test/exec_zadanie_1	0
+Zadanie test 2	executor_test/exec_zadanie_2	0
+Zadanie test 3	executor_test/exec_zadanie_3	0
+
 # String testy
 #
 Long string test	string_test/long_string	0
@@ -42,3 +69,5 @@ Arithmetic test 4	arithmetic_test/arithmetic_test_4	0
 Arithmetic test 5	arithmetic_test/arithmetic_test_5	9
 Arithmetic test 6	arithmetic_test/arithmetic_test_6	8
 Arithmetic test 7	arithmetic_test/arithmetic_test_7	0
+Arithmetic test 8	arithmetic_test/arithmetic_test_8	8
+Arithmetic test 9	arithmetic_test/arithmetic_test_9	0
