@@ -41,7 +41,6 @@ Sematicky test 13	sema_test/sema_test_13	4
 #
 Executor test 1	executor_test/exec_test_1	8
 Executor test 2	executor_test/exec_test_2	8
-Executor test 2	executor_test/exec_test_2	10
 Executor test 3	executor_test/exec_test_3	10
 Executor test 4	executor_test/exec_test_4	10
 Executor test 5	executor_test/exec_test_5	10
