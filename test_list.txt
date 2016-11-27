@@ -45,7 +45,7 @@ Executor test 3	executor_test/exec_test_3	10
 Executor test 4	executor_test/exec_test_4	10
 Executor test 5	executor_test/exec_test_5	10
 Executor test 6	executor_test/exec_test_6	10
-Executor test 7	executor_test/exec_test_7	10
+Executor test 7	executor_test/exec_test_7	7
 
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
