@@ -1,5 +1,5 @@
-// Volanie funkcie s argumentom so
-// zlym datovym typom
+// Volanie funkcie s argumentom
+// na implicitne pretypovanie
 
 class Main
 {

@@ -31,10 +31,11 @@ Sematicky test 5	sema_test/sema_test_5	4
 Sematicky test 6	sema_test/sema_test_6	4
 Sematicky test 7	sema_test/sema_test_7	4
 Sematicky test 8	sema_test/sema_test_8	4
-Sematicky test 9	sema_test/sema_test_9	4
+Sematicky test 9	sema_test/sema_test_9	0
 Sematicky test 10	sema_test/sema_test_10	4
 Sematicky test 11	sema_test/sema_test_11	3
 Sematicky test 12	sema_test/sema_test_12	0
+Sematicky test 13	sema_test/sema_test_13	4
 
 # Exekutor testy
 #
