@@ -1,5 +1,7 @@
 // Volanie funkcie s argumentom
-// na implicitne pretypovanie
+// na nesravne implicitne pretypovanie
+// z double na int nieje mozne, iba naopak
+// vid. sema_test_14
 
 class Main
 {

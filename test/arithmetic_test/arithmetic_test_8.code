@@ -4,14 +4,15 @@ class Main
 {
     static void run()
     {
-        int r = Second.variable();
+        Second.variable();
     }
 }
 
 class Second
 {
-	static int variable() {
-        int v;
+	static int variable()
+	{
+		int v;
         return v;
     }
 }
