@@ -29,6 +29,7 @@ Syntakticky test 3	syna_test/syna_test_3	2
 Syntakticky test 4	syna_test/syna_test_4	2
 Syntakticky test 5	syna_test/syna_test_5	2
 Syntakticky test 6	syna_test/syna_test_6	2
+Syntakticky test 7	syna_test/syna_test_7	2
 
 # Sematicke testy
 #
@@ -54,6 +55,10 @@ Executor test 2	executor_test/exec_test_2	8
 Executor test 3	executor_test/exec_test_3	10
 Executor test 5	executor_test/exec_test_5	10
 Executor test 7	executor_test/exec_test_7	7
+Executor test 8	executor_test/exec_test_8	9
+Executor test 9	executor_test/exec_test_9	0
+Executor test 10	executor_test/exec_test_10	9
+Executor test 11	executor_test/exec_test_11	8
 
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
@@ -85,6 +90,11 @@ Arithmetic test 8	arithmetic_test/arithmetic_test_8	8
 
 # Complexne testy
 #
+Complexny test 1	complex_test/complex_test_1	0
+Complexny test 2	complex_test/complex_test_2	0
+Complexny test 3	complex_test/complex_test_3	0
+Complexny test 4	complex_test/complex_test_4	0
+Complexny test 5	complex_test/complex_test_5	0
 IFJ master test	complex_test/zlaty_bludistak	0
 
 # Praca so zapornymi cislami (UNARI - rozsirenie zadatania)
