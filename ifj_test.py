@@ -43,8 +43,8 @@ else:
     sys.exit(0)
 
 score = {}
-score["ok"] = 0
-score["fail"] = 0
+score["ok"] = []
+score["fail"] = []
 
 for test in test_list:
     print("Test: \"" + test[0] + "\"", flush = True)
@@ -108,11 +108,14 @@ for test in test_list:
         print('  Signal:',signals[proc_rc])
     if result:
         print('  Test OK\n')
-        score["ok"] += 1
+        score["ok"].append(test[0])
     else:
         print('  Test FAILED\n')
-        score["fail"] += 1
+        score["fail"].append(test[0])
 
-print("DONE, ok:", score["ok"], "failed:", score["fail"] )
+print("DONE, ok:", len(score["ok"]), "failed:", len(score["fail"]) )
 if score["fail"]:
+    print('Failed tests:')
+    for i in score["fail"]:
+        print(" ",i)
     sys.exit(1)
