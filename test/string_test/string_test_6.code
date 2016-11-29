@@ -4,9 +4,9 @@ class Main
 {
 	static void run()
 	{
-		String a = "V: \"\\\n a\"\t \n koniec\'" + "\n";
+		String a = "V: \"\\\n a\"\t \n koniec'" + "\n";
 		ifj16.print(a);
 
-		ifj16.print("P: \"\\\n a\"\t \n koniec2\'" + "\n");
+		ifj16.print("P: \"\\\n a\"\t \n koniec2'" + "\n");
 	}
 }
