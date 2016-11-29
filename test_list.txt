@@ -20,6 +20,11 @@ Lexikalny test 2	lex_test/lex_test_2	1
 Lexikalny test 3	lex_test/lex_test_3	1
 Lexikalny test 4	lex_test/lex_test_4	1
 Lexikalny test 5	lex_test/lex_test_5	1
+Lexikalny test 6	lex_test/lex_test_6	0
+Lexikalny test 7	lex_test/lex_test_7	0
+Lexikalny test 8	lex_test/lex_test_8	0
+Lexikalny test 9	lex_test/lex_test_9	1
+Lexikalny test 10	lex_test/lex_test_10	1
 
 # Syntax testy
 #
@@ -30,6 +35,10 @@ Syntakticky test 4	syna_test/syna_test_4	2
 Syntakticky test 5	syna_test/syna_test_5	2
 Syntakticky test 6	syna_test/syna_test_6	2
 Syntakticky test 7	syna_test/syna_test_7	2
+Syntakticky test 8	syna_test/syna_test_8	2
+Syntakticky test 9	syna_test/syna_test_9	2
+Syntakticky test 10	syna_test/syna_test_10	2
+Syntakticky test 11	syna_test/syna_test_11	2
 
 # Sematicke testy
 #
@@ -48,6 +57,13 @@ Sematicky test 12	sema_test/sema_test_12	0
 Sematicky test 13	sema_test/sema_test_13	4
 Sematicky test 14	sema_test/sema_test_14	0
 Sematicky test 15	sema_test/sema_test_15	3
+Sematicky test 16	sema_test/sema_test_16	3
+Sematicky test 17	sema_test/sema_test_17	3
+Sematicky test 18	sema_test/sema_test_18	3
+Sematicky test 19	sema_test/sema_test_19	3
+Sematicky test 20	sema_test/sema_test_20	4
+Sematicky test 21	sema_test/sema_test_21	4
+Sematicky test 22	sema_test/sema_test_22	0
 
 # Exekutor testy
 #
@@ -64,6 +80,13 @@ Executor test 12	executor_test/exec_test_12	0
 Executor test 13	executor_test/exec_test_13	0
 Executor test 14	executor_test/exec_test_14	0
 Executor test 15	executor_test/exec_test_15	0
+Executor test 16	executor_test/exec_test_16	8
+Executor test 17	executor_test/exec_test_17	0
+Executor test 18	executor_test/exec_test_18	0
+Executor test 19	executor_test/exec_test_19	0
+Executor test 20	executor_test/exec_test_20	0
+Executor test 21	executor_test/exec_test_21	0
+Executor test 22	executor_test/exec_test_22	0
 
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
@@ -79,6 +102,8 @@ String test 2	string_test/string_test_2	0
 String test 3	string_test/string_test_3	0
 String test 4	string_test/string_test_4	0
 String test 5	string_test/string_test_5	0
+String test 6	string_test/string_test_6	0
+String test 7	string_test/string_test_7	0
 
 # Aritmeticke testy
 # +, -, *, / s double, integer, string
@@ -92,6 +117,7 @@ Arithmetic test 5	arithmetic_test/arithmetic_test_5	9
 Arithmetic test 6	arithmetic_test/arithmetic_test_6	8
 Arithmetic test 7	arithmetic_test/arithmetic_test_7	0
 Arithmetic test 8	arithmetic_test/arithmetic_test_8	8
+Arithmetic test 10	arithmetic_test/arithmetic_test_10	7
 
 # Complexne testy
 #

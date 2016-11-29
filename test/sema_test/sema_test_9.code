@@ -1,5 +1,5 @@
 // Volanie funkcie s argumentom
-// na nesravne implicitne pretypovanie
+// na nespravne implicitne pretypovanie
 // z double na int nieje mozne, iba naopak
 // vid. sema_test_14
 

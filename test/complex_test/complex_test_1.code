@@ -16,11 +16,13 @@ class Druha
 	static int b = Main.a;
 	static int rekurz()
 	{
+		int c;
 		if (b > 5)
 		{
 			b = b - 1;
 			ifj16.print("b: " + b + "\n");
-			return rekurz();
+			c = rekurz();
+			return c;
 		}
 
 		return 258;
