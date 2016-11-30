@@ -64,6 +64,7 @@ Sematicky test 19	sema_test/sema_test_19	3
 Sematicky test 20	sema_test/sema_test_20	4
 Sematicky test 21	sema_test/sema_test_21	4
 Sematicky test 22	sema_test/sema_test_22	0
+Sematicky test 23	sema_test/sema_test_23	3
 
 # Exekutor testy
 #
@@ -87,6 +88,28 @@ Executor test 19	executor_test/exec_test_19	0
 Executor test 20	executor_test/exec_test_20	0
 Executor test 21	executor_test/exec_test_21	0
 Executor test 22	executor_test/exec_test_22	0
+Executor test 23	executor_test/exec_test_23	8
+Executor test 24	executor_test/exec_test_24	8
+Executor test 25	executor_test/exec_test_25	8
+Executor test 26	executor_test/exec_test_26	8
+Executor test 27	executor_test/exec_test_27	8
+Executor test 28	executor_test/exec_test_28	8
+Executor test 29	executor_test/exec_test_29	8
+Executor test 30	executor_test/exec_test_30	8
+Executor test 31	executor_test/exec_test_31	8
+Executor test 32	executor_test/exec_test_32	0
+Executor test 33	executor_test/exec_test_33	8
+Executor test 34	executor_test/exec_test_34	8
+Executor test 35	executor_test/exec_test_35	0
+Executor test 36	executor_test/exec_test_36	0
+Executor test 37	executor_test/exec_test_37	0
+Executor test 38	executor_test/exec_test_38	0
+Executor test 39	executor_test/exec_test_39	8
+Executor test 40	executor_test/exec_test_40	8
+Executor test 41	executor_test/exec_test_41	8
+Executor test 42	executor_test/exec_test_42	4
+Executor test 43	executor_test/exec_test_43	8
+Executor test 44	executor_test/exec_test_44	4
 
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
