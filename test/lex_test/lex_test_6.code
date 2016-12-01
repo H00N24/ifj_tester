@@ -10,8 +10,8 @@ class Main
 		int a123 = 5;
 		double A123 = 5;
 		double A123_jd47 = 5;
-		String _idenTIF1ka_tor = 5;
-		String $iden_T1f2k5_$tor = 5;
+		String _idenTIF1ka_tor = "5";
+		String $iden_T1f2k5_$tor = "5";
 
 		int $_iD3n_a___T1d2k$$$_85A = 25;
 
