@@ -65,6 +65,11 @@ Sematicky test 20	sema_test/sema_test_20	4
 Sematicky test 21	sema_test/sema_test_21	4
 Sematicky test 22	sema_test/sema_test_22	0
 Sematicky test 23	sema_test/sema_test_23	3
+Sematicky test 24	sema_test/sema_test_24	0
+Sematicky test 25	sema_test/sema_test_25	0
+Sematicky test 26	sema_test/sema_test_26	0
+Sematicky test 27	sema_test/sema_test_27	0
+Sematicky test 28	sema_test/sema_test_28	0
 
 # Exekutor testy
 #
@@ -110,6 +115,7 @@ Executor test 41	executor_test/exec_test_41	8
 Executor test 42	executor_test/exec_test_42	4
 Executor test 43	executor_test/exec_test_43	8
 Executor test 44	executor_test/exec_test_44	4
+Executor test 45	executor_test/exec_test_45	0
 
 # Testy zo zadanie
 Zadanie test 1	executor_test/exec_zadanie_1	0
@@ -165,3 +171,12 @@ IFJ master test	complex_test/zlaty_bludistak	0
 # Rozsirenie SIMPLE
 #
 SIMPLE - test 1	SIMPLE/simple_test_1	0
+SIMPLE - test 2	SIMPLE/simple_test_2	0
+
+# Rozsirenie CYCLES
+#
+CYCLES - test 1	CYCLES/cycles_test_1	0
+CYCLES - test 2	CYCLES/cycles_test_2	0
+CYCLES - test 3	CYCLES/cycles_test_3	0
+CYCLES - test 4	CYCLES/cycles_test_4	0
+CYCLES - test 5	CYCLES/cycles_test_5	0

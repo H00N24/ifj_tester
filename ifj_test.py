@@ -7,7 +7,7 @@ autor: xkurak00
 '''
 
 import os,sys,re, inspect
-from subprocess import Popen, PIPE, run
+from subprocess import Popen, PIPE
 
 print('---IFJ test script---\n')
 
