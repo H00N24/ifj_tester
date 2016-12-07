@@ -29,7 +29,6 @@ Lexikalny test 10	lex_test/lex_test_10	1
 # Syntax testy
 #
 Syntakticky test 1	syna_test/syna_test_1	2
-Syntakticky test 2	syna_test/syna_test_2	4
 Syntakticky test 3	syna_test/syna_test_3	2
 Syntakticky test 4	syna_test/syna_test_4	2
 Syntakticky test 5	syna_test/syna_test_5	2
@@ -39,6 +38,11 @@ Syntakticky test 8	syna_test/syna_test_8	2
 Syntakticky test 9	syna_test/syna_test_9	2
 Syntakticky test 10	syna_test/syna_test_10	2
 Syntakticky test 11	syna_test/syna_test_11	2
+Syntakticky test 12	syna_test/syna_test_12	2
+Syntakticky test 13	syna_test/syna_test_13	2
+Syntakticky test 14	syna_test/syna_test_14	2
+Syntakticky test 15	syna_test/syna_test_15	2
+Syntakticky test 16	syna_test/syna_test_16	2
 
 # Sematicke testy
 #
@@ -70,6 +74,8 @@ Sematicky test 25	sema_test/sema_test_25	0
 Sematicky test 26	sema_test/sema_test_26	0
 Sematicky test 27	sema_test/sema_test_27	0
 Sematicky test 28	sema_test/sema_test_28	0
+Sematicky test 29	sema_test/sema_test_29	4
+Sematicky test 30	syna_test/syna_test_2	4
 
 # Exekutor testy
 #
@@ -124,8 +130,6 @@ Zadanie test 3	executor_test/exec_zadanie_3	0
 
 # String testy
 #
-Long string test	string_test/long_string	0
-Input string test	string_test/input_string	0
 String test 1	string_test/string_test_1	0
 String test 2	string_test/string_test_2	0
 String test 3	string_test/string_test_3	0
@@ -133,6 +137,8 @@ String test 4	string_test/string_test_4	0
 String test 5	string_test/string_test_5	0
 String test 6	string_test/string_test_6	0
 String test 7	string_test/string_test_7	0
+String test 8	string_test/long_string	0
+String test 9	string_test/input_string	0
 
 # Aritmeticke testy
 # +, -, *, / s double, integer, string
